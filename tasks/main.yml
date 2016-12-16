@@ -1,0 +1,6 @@
+---
+- name: Install xfce4 packages
+  xbps:
+    pkg:
+      - xfce4
+    state: present
